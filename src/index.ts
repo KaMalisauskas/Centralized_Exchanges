@@ -11,4 +11,4 @@ const CustomCcxt : any = {
 
 };
 
-export default CustomCcxt;
+module.exports = CustomCcxt;

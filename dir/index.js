@@ -7,4 +7,4 @@ const CustomCcxt = {
     idex: index_2.default,
     exchanges: ['idex'],
 };
-exports.default = CustomCcxt;
+module.exports = CustomCcxt;
