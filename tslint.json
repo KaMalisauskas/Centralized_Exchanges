@@ -1,0 +1,47 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended"
+  ],
+  "jsRules": {},
+  "rules": {
+    "quotemark": [true, "single"],
+    "typedef-whitespace": true,
+    "no-console": [false, "log", "error"],
+    "curly": false,
+    "no-shadowed-variable": false,
+    "ordered-imports": false,
+    "no-var-requires": false,
+    "no-trailing-whitespace": [true, "ignore-blank-lines"],
+    "prefer-const": false,
+    "trailing-comma": [true, {"multiline": "always", "singleline": "never"}],
+    "variable-name": [true, "ban-keywords", "check-format", "allow-leading-underscore", "allow-pascal-case"],
+    "prefer-for-of": false,
+    "await-promise": true,
+    "ban": [
+      true,
+      "eval",
+      {"name": "$", "message": "please don't"},
+      ["describe", "only"],
+      {"name": ["it", "only"], "message": "don't focus tests"},
+      {"name": ["chai", "assert", "equal"], "message": "Use 'strictEqual' instead."},
+      {"name": ["*", "forEach"], "message": "Use a regular for loop instead."},
+      {"name": ["*", "map"], "message": "Use a regular for loop instead."}
+
+    ],
+    "no-floating-promises": true,
+    "no-var-keyword": true,
+    "linebreak-style": [true, "LF"],
+    "max-line-length": [true, 120],
+    "no-duplicate-imports": true,
+    "align": [true, "parameters", "statements"],
+    "one-line": [true, "check-catch", "check-finally"],
+    "space-before-function-paren": true,
+    "array-type": [true, "array-simple"],
+    "forin": true,
+    "newline-before-return": true,
+    "no-irregular-whitespace": true,
+    "space-within-parens": true
+  },
+  "rulesDirectory": []
+}
