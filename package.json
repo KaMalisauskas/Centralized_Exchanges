@@ -1,0 +1,19 @@
+{
+  "name": "centralized_exchanges",
+  "version": "1.0.0",
+  "description": "Centralized crypto exchanges by CCXT module format.",
+  "main": "dir/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KaMalisauskas/Centralized_Exchanges.git"
+  },
+  "author": "Karolis Malisauskas <karolis.malisauskas@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KaMalisauskas/Centralized_Exchanges/issues"
+  },
+  "homepage": "https://github.com/KaMalisauskas/Centralized_Exchanges#readme"
+}
